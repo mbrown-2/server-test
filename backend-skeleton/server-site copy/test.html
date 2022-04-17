@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> ECE 140B - Data Collection Test </title>
+    </head>
+
+    <body>
+        <h1> Data Collection Test </h1>
+        <p> A test site on localhost (for now) for future testing (ie. outputting from DB any plant data) </p>
+
+        <!-- User input textbox -->
+        <p> A simple searchup to retrieve specific meter data (for now)</p>
+        <label for="name">Meter ID:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <input type="submit" value="Query" onclick="simple_get()">
+        
+        <hr>
+
+        <p id="output"></p>
+
+        <script type="text/javascript" src="rest.js"></script>
+    </body>
+</html>
